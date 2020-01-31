@@ -1,0 +1,29 @@
+.header{
+.test(green);
+   .flex(column);
+
+.header-inside{
+    .test(red);
+    .navi{
+        .flex(row);
+        justify-content: space-around;
+        .test(blue);
+    } //end nav (nested inside header-inside(parent: header))
+} //end header-inside (nested inside header
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+.banner-img{
+    max-width: 375px; //temp use for Iphone X 
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+} //end header

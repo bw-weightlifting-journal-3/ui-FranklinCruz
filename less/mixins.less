@@ -1,5 +1,5 @@
-.test(){
-    border: dotted 1px red;
+.test(@c){
+    border: dotted 1px @c;
 }
 
 //Desktop layout
@@ -11,7 +11,10 @@
     align-items: @a;
 }  */
 
-
+.flex(@FD){
+    display: flex;
+    flex-direction: @FD;
+}
 
 
 
