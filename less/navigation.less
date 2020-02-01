@@ -1,14 +1,25 @@
 .header{
-.test(green);
+//.test(green);
    .flex(column);
 
 .header-inside{
-    .test(red);
+    background-color: #6c788c ;
+    //.test(red);
     .navi{
+
         .flex(row);
         justify-content: space-around;
-        .test(blue);
+        align-items: center;
+        //.test(blue);
+        background-color: #6c788c ;
+        height: 8vh;
+
+
+
+
+
     } //end nav (nested inside header-inside(parent: header))
+
 } //end header-inside (nested inside header
 
 .container{
@@ -19,6 +30,7 @@
     max-width: 375px; //temp use for Iphone X 
 }
 .centered{
+    font-size: 2.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,3 +39,16 @@
 }
 
 } //end header
+
+.header-bottom{
+    .sub-nav {
+
+        height: 3vh;
+        text-align: center;
+        background-color: #6c788c ;
+       
+        a{
+            text-decoration: none;  
+        }
+    }
+}
