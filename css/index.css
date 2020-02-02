@@ -182,7 +182,20 @@ table {
 .header-bottom .sub-nav a {
   text-decoration: none;
 }
+.footer {
+  border: dotted 1px green;
+  height: 8vh;
+  background-color: #6c788c;
+}
 .main-section {
   height: 100vh;
   border: dotted 1px red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-section .include {
+  border: dotted 1px red;
+  height: 30vh;
 }
