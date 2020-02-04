@@ -183,19 +183,52 @@ table {
   text-decoration: none;
 }
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: dotted 1px green;
-  height: 8vh;
+  height: 15vh;
   background-color: #6c788c;
+}
+.footer .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: dotted 1px blue;
+  width: 50%;
+}
+.footer .social #icon {
+  font-size: 1.6rem;
+}
+.footer .bottomlogo {
+  border: dotted 1px red;
+  max-width: 20%;
 }
 .main-section {
   height: 100vh;
-  border: dotted 1px red;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
+.main-section .moto h1 {
+  font-size: 1.7rem;
+}
 .main-section .include {
-  border: dotted 1px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
   height: 30vh;
+}
+.main-section .include h1 {
+  font-size: 1.2rem;
+}
+.main-section .include p {
+  font-family: 'Play', sans-serif;
+  font-size: 1.2rem;
+  word-spacing: 0.2rem;
+  margin: 2%;
 }

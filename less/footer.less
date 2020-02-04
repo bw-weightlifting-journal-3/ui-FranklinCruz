@@ -1,6 +1,9 @@
 .footer{
+    .flex(column);
+    align-items: center;
+    justify-content: center;
     .test(green);
-    height: 8vh;
+    height: 15vh;
     background-color: #6c788c ;
 
     .info{
@@ -8,6 +11,18 @@
     }
 
     .social{
+        .flex(row);
+        justify-content: space-evenly;
+        align-items: center;
+        .test(blue);
+       width: 50%;
+       #icon{
+           font-size: 1.6rem;
+       }
+    }
 
+    .bottomlogo{
+        .test(red);
+        max-width: 20%;
     }
 }
