@@ -165,7 +165,7 @@ table {
   color: white;
 }
 .header .container .banner-img {
-  max-width: 375px;
+  max-width: 80vw;
 }
 .header .container .centered {
   font-size: 2.5rem;
@@ -215,7 +215,7 @@ table {
   font-size: 1.6rem;
 }
 .main-section {
-  height: 100vh;
+  height: 135vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,6 +234,11 @@ table {
 }
 .main-section .include h1 {
   font-size: 1.2rem;
+}
+.main-section .include img {
+  height: 45vh;
+  margin: 3%;
+  width: 75vw;
 }
 .main-section .include p {
   font-family: 'Play', sans-serif;
