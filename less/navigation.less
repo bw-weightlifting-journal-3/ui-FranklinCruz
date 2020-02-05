@@ -16,7 +16,14 @@
           height: 8vh;
   
   
-  
+          @media @tablet{
+               height: 10vh;
+              
+          }
+
+          @media @desktop{
+              height: 10vh;
+          }
   
   
       } //end nav (nested inside header-inside(parent: header))
@@ -28,7 +35,8 @@
       text-align: center;
       color: white;
   .banner-img{
-      max-width: 80vw; //temp use for Iphone X 
+      max-width: 100vw; //temp use for Iphone X 
+      height: 45vh;
   }
   .centered{
       font-size: 2.5rem;
@@ -43,13 +51,40 @@
   
   .header-bottom{
       .sub-nav {
+           .flex(row);
+           justify-content: center;
+           align-items: center;
+          .test(red);
   
           height: 3vh;
           text-align: center;
           background-color: #6c788c ;
          
           a{
-              text-decoration: none;  
+              text-align: center;
+              text-decoration: none;
+              
+              
+              @media @desktop{
+                  
+              }
+
+              @media @tablet{
+               
+               
+
+
+
+            }
           }
+          @media @desktop{
+              height: 7vh;
+          }
+
+          @media @tablet{
+              height: 5vh;
+          }
+
+
       }
     }
