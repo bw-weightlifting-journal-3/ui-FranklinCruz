@@ -9,6 +9,16 @@
     h1{
         font-size: 1.7rem;
     }
+
+    @media @desktop{
+        h1{
+            font-size: 3rem;
+      
+            
+            
+        }
+    }
+
 }
 
 .include{
@@ -25,7 +35,7 @@
       height: 45vh;
       margin: 3%;
       width: 75vw;
-
+//.img media start
       @media @tablet{
 
     }
@@ -33,21 +43,9 @@
     @media @desktop{
         width: 40vw;
         height: 45vh;
-    }
+    } //.img media end
 
-    //.include media 
-    @media @tablet{
-
-    }
-    
-    @media @desktop{
-        
-    }
-    //end .include media
-
-
-
-    }
+    } //img end
 
     p{
         font-family: 'Play', sans-serif;
@@ -55,8 +53,33 @@
         word-spacing: .2rem;
         margin: 2%;
     }
+
+
+    //.include media 
+    @media @tablet{
+
+    }
+    
+    @media @desktop{
+        height: auto;
+        width: 80vw;
+     
+
+        h1{
+            font-size: 1.8rem;
+        }
+
+        P{
+            font-size: 1.4rem;
+            margin: 2%;
+            width: 80vw;
+        }
+    }
+    //end .include media
 }
 
+
+//.main-section start
 @media @tablet{
 
 }
@@ -64,5 +87,6 @@
 @media @desktop{
     
 }
+//.main-section end
 
 }
