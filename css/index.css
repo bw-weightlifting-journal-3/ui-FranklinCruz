@@ -321,11 +321,21 @@ table {
     font-size: 2.2rem;
   }
 }
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .footer .social {
+    width: 45%;
+  }
+}
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
   .footer .social {
     margin: 0%;
     width: 40%;
     margin-bottom: 2%;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .footer {
+    height: auto;
   }
 }
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
@@ -345,26 +355,6 @@ table {
   align-items: center;
   justify-content: space-evenly;
 }
-@media only screen and (min-width: 1129px) {
-  .main-section {
-    height: auto;
-  }
-  .main-section #include-one {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 75%;
-  }
-  .main-section #include-two {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 75%;
-  }
-  .main-section #include-three {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 75%;
-  }
-}
 .main-section .moto h1 {
   font-size: 1.7rem;
 }
@@ -375,7 +365,8 @@ table {
 }
 @media only screen and (min-width: 530px) and (max-width: 949px) {
   .main-section .moto {
-    margin-top: 2%;
+    margin-top: 3%;
+    letter-spacing: 1.4rem;
   }
 }
 @media only screen and (min-width: 1129px) {
@@ -403,7 +394,8 @@ table {
 }
 @media only screen and (min-width: 530px) and (max-width: 949px) {
   .main-section .include img {
-    width: 30vw;
+    width: auto;
+    height: 55vh;
   }
 }
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
@@ -444,8 +436,48 @@ table {
   }
 }
 @media only screen and (min-width: 530px) and (max-width: 949px) {
+  .main-section .include {
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 949px) {
   .main-section {
-    height: 150vh;
+    height: auto;
+  }
+  .main-section #include-one {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 75%;
+  }
+  .main-section #include-two {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+  .main-section #include-three {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 1129px) {
+  .main-section {
+    height: auto;
+  }
+  .main-section #include-one {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+  .main-section #include-two {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+  .main-section #include-three {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
   }
 }
 .section-two {

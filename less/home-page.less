@@ -5,29 +5,8 @@
     align-items: center;
     justify-content: space-evenly;
 
-    @media @desktop-xl{
-height: auto;
+   
 
-        #include-one{
-            margin-top: 5%;
-            margin-bottom: 5%;
-            width: 75%;
-           
-        }
-
-        #include-two{
-          
-            margin-top: 5%;
-            margin-bottom: 5%;
-            width: 75%;
-        }
-
-        #include-three{
-            margin-top: 5%;
-            margin-bottom: 5%;
-            width: 75%;
-        }
-    }
 
 .moto{
     h1{
@@ -44,7 +23,8 @@ height: auto;
     }
 
     @media @tablet {
-        margin-top: 2%;;
+        margin-top: 3%;;
+        letter-spacing: 1.4rem;
     }
     @media @desktop-xl{
         margin-top: 2%;
@@ -73,7 +53,8 @@ height: auto;
       width: 75vw;
 //.img media start
       @media @tablet{
-         width: 30vw;
+         width: auto;
+         height: 55vh;
     }
     
     @media @desktop{
@@ -119,17 +100,67 @@ height: auto;
         }
     }
     //end .include media
+
+
+    @media @tablet{
+        align-items: center;
+    }
 }
 
 
 //.main-section start
 @media @tablet{
-    height: 150vh;
+    height: auto;
+    
+    #include-one{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 75%;
+       
+    }
+
+    #include-two{
+      
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 75%;
+    }
+
+    #include-three{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 75%;
+    }
 }
 
 @media @desktop{
     
 }
+
+@media @desktop-xl{
+    height: auto;
+    
+            #include-one{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                width: 75%;
+               
+            }
+    
+            #include-two{
+              
+                margin-top: 5%;
+                margin-bottom: 5%;
+                width: 75%;
+            }
+    
+            #include-three{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                width: 75%;
+            }
+        }
+    
 //.main-section end
 
 }
