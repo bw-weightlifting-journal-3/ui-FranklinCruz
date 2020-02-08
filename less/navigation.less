@@ -1,7 +1,16 @@
 .header{
   //.test(green);
      .flex(column);
-  
+  .wrapper{
+
+
+    @media @desktop-xl{
+        .flex(row);
+        background-color:  #6c788c;
+        justify-content:space-around ;
+        align-items: center;
+        height: 20vh;
+    }
   .header-inside{
      
       background-color: #6c788c ;
@@ -43,6 +52,7 @@
 
 @media @desktop-xl{
     width: 100%;
+    height: 15vh;
     
 }
 
@@ -50,6 +60,7 @@
       } //end nav (nested inside header-inside(parent: header))
   
   } //end header-inside (nested inside header
+}
   
   .container{
      
@@ -89,7 +100,7 @@
           background-color: #6c788c ;
 
           @media @desktop-xl{
-              height: 5vh;
+             
           }
          
           a{
@@ -115,7 +126,9 @@
 
              @media @desktop-xl{
                  margin: 0%;
-                 font-size: 1.7rem;
+                 font-size: 2rem;
+                 
+                 
              }
 
 
