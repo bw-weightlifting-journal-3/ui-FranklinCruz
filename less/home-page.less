@@ -5,6 +5,30 @@
     align-items: center;
     justify-content: space-evenly;
 
+    @media @desktop-xl{
+height: auto;
+
+        #include-one{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 75%;
+           
+        }
+
+        #include-two{
+          
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 75%;
+        }
+
+        #include-three{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 75%;
+        }
+    }
+
 .moto{
     h1{
         font-size: 1.7rem;
@@ -22,7 +46,11 @@
     @media @tablet {
         margin-top: 2%;;
     }
-
+    @media @desktop-xl{
+        margin-top: 2%;
+        letter-spacing: 2.3rem;
+        border-bottom: 1.3px solid grey;
+    }
 }
 
 .include{
@@ -35,6 +63,9 @@
     h1{
         font-size: 1.2rem;
     }
+
+
+   
   img{
      
       height: 45vh;
@@ -49,6 +80,13 @@
         width: 40vw;
         height: 45vh;
     } //.img media end
+
+
+    @media @desktop-xl{
+        width: auto;
+        height: 60vh
+        
+    }
 
     } //img end
 
@@ -104,6 +142,11 @@
     .flex(column);
     align-items: center;
     justify-content: center;
+
+    @media @desktop-xl{
+        height: auto;
+        margin: 0%;
+    }
    
 
    .include-two{
@@ -124,6 +167,19 @@
           text-align: center;
           font-size: 1.4rem;
       }
+
+
+@media @desktop-xl{
+   h1{
+    
+   }
+   h2{
+      margin: 0%;
+   }
+
+   align-items: center;
+}
+
    }
      .button-section-two{
          .flex(columns);
@@ -151,6 +207,17 @@
           
            border-radius: 1em;
            color: black;
+      }
+
+
+
+      @media @desktop-xl{
+          width: 50%;
+          margin-bottom: 2%;
+
+          a{
+              padding-bottom: 1.5%;
+          }
       }
 
      }

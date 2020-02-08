@@ -329,6 +329,26 @@ table {
   align-items: center;
   justify-content: space-evenly;
 }
+@media only screen and (min-width: 1129px) {
+  .main-section {
+    height: auto;
+  }
+  .main-section #include-one {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+  .main-section #include-two {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+  .main-section #include-three {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+  }
+}
 .main-section .moto h1 {
   font-size: 1.7rem;
 }
@@ -340,6 +360,13 @@ table {
 @media only screen and (min-width: 530px) and (max-width: 949px) {
   .main-section .moto {
     margin-top: 2%;
+  }
+}
+@media only screen and (min-width: 1129px) {
+  .main-section .moto {
+    margin-top: 2%;
+    letter-spacing: 2.3rem;
+    border-bottom: 1.3px solid grey;
   }
 }
 .main-section .include {
@@ -367,6 +394,12 @@ table {
   .main-section .include img {
     width: 40vw;
     height: 45vh;
+  }
+}
+@media only screen and (min-width: 1129px) {
+  .main-section .include img {
+    width: auto;
+    height: 60vh;
   }
 }
 .main-section .include p {
@@ -408,6 +441,12 @@ table {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (min-width: 1129px) {
+  .section-two {
+    height: auto;
+    margin: 0%;
+  }
+}
 .section-two .include-two {
   display: flex;
   flex-direction: column;
@@ -424,6 +463,14 @@ table {
   margin-top: 2%;
   text-align: center;
   font-size: 1.4rem;
+}
+@media only screen and (min-width: 1129px) {
+  .section-two .include-two {
+    align-items: center;
+  }
+  .section-two .include-two h2 {
+    margin: 0%;
+  }
 }
 .section-two .button-section-two {
   display: flex;
@@ -445,6 +492,15 @@ table {
   width: 55%;
   border-radius: 1em;
   color: black;
+}
+@media only screen and (min-width: 1129px) {
+  .section-two .button-section-two {
+    width: 50%;
+    margin-bottom: 2%;
+  }
+  .section-two .button-section-two a {
+    padding-bottom: 1.5%;
+  }
 }
 @media only screen and (min-width: 530px) and (max-width: 949px) {
   .section-two {
