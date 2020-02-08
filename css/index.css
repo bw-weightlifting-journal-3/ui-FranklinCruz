@@ -294,6 +294,12 @@ table {
     margin-top: 1%;
   }
 }
+@media only screen and (min-width: 1129px) {
+  .footer .info .bottomlogo {
+    max-width: 80vw;
+    height: 10vh;
+  }
+}
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
   .footer .info {
     margin: 1%;
@@ -310,6 +316,11 @@ table {
 .footer .social #icon {
   font-size: 1.6rem;
 }
+@media only screen and (min-width: 1129px) {
+  .footer .social #icon {
+    font-size: 2.2rem;
+  }
+}
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
   .footer .social {
     margin: 0%;
@@ -320,6 +331,11 @@ table {
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
   .footer {
     height: 18vh;
+  }
+}
+@media only screen and (min-width: 1129px) {
+  .footer {
+    height: auto;
   }
 }
 .main-section {
