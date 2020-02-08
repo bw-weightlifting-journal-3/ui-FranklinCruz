@@ -524,3 +524,20 @@ table {
     margin: 0%;
   }
 }
+.main-section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  border: dotted 1px blue;
+}
+.main-section-card .warpper-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: dotted 1px red;
+  width: 65%;
+  height: 55vh;
+}
