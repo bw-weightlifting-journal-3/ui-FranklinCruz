@@ -19,6 +19,10 @@
         }
     }
 
+    @media @tablet {
+        margin-top: 2%;;
+    }
+
 }
 
 .include{
@@ -32,12 +36,13 @@
         font-size: 1.2rem;
     }
   img{
+     
       height: 45vh;
       margin: 3%;
       width: 75vw;
 //.img media start
       @media @tablet{
-
+         width: 30vw;
     }
     
     @media @desktop{
@@ -57,7 +62,7 @@
 
     //.include media 
     @media @tablet{
-
+          width: 80vw;
     }
     
     @media @desktop{
@@ -81,12 +86,79 @@
 
 //.main-section start
 @media @tablet{
-
+    height: 150vh;
 }
 
 @media @desktop{
     
 }
 //.main-section end
+
+}
+
+
+.section-two{
+    background-color: #f2f1ed;
+    height: 20vh;
+    margin: 3%;
+    .flex(column);
+    align-items: center;
+    justify-content: center;
+   
+
+   .include-two{
+     
+       .flex(column);
+       
+       width: 100%;
+       height: 100%;
+      h1{
+          text-align: center;
+         
+           font-size: 1.7rem;
+           margin-bottom: 2%;
+           margin-top: 4%;
+      }
+      h2{
+          margin-top: 2%;
+          text-align: center;
+          font-size: 1.4rem;
+      }
+   }
+     .button-section-two{
+         .flex(columns);
+         align-items: center;
+         justify-content: center;
+         height: 35%;
+     
+        
+        margin-top: 4%;
+  
+
+      a{
+          .flex(column);
+           align-items: center;
+           justify-content: center;
+           
+         
+          text-decoration: none;
+           
+          
+           font-size: 1.6rem;
+           background-color: blue;
+          height: 7vh;
+          width: 55%;
+          
+           border-radius: 1em;
+           color: black;
+      }
+
+     }
+
+
+     @media @tablet { 
+         height: 30vh;
+         margin: 0%;
+     }
 
 }

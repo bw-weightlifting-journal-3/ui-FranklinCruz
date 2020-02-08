@@ -278,6 +278,11 @@ table {
     font-size: 3rem;
   }
 }
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .main-section .moto {
+    margin-top: 2%;
+  }
+}
 .main-section .include {
   display: flex;
   flex-direction: column;
@@ -294,6 +299,11 @@ table {
   margin: 3%;
   width: 75vw;
 }
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .main-section .include img {
+    width: 30vw;
+  }
+}
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
   .main-section .include img {
     width: 40vw;
@@ -305,6 +315,11 @@ table {
   font-size: 1.2rem;
   word-spacing: 0.2rem;
   margin: 2%;
+}
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .main-section .include {
+    width: 80vw;
+  }
 }
 @media only screen and (min-width: 950px) and (max-width: 1128px) {
   .main-section .include {
@@ -318,5 +333,63 @@ table {
     font-size: 1.4rem;
     margin: 2%;
     width: 80vw;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .main-section {
+    height: 150vh;
+  }
+}
+.section-two {
+  background-color: #f2f1ed;
+  height: 20vh;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-two .include-two {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.section-two .include-two h1 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+.section-two .include-two h2 {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.section-two .button-section-two {
+  display: flex;
+  flex-direction: columns;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+  margin-top: 4%;
+}
+.section-two .button-section-two a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  background-color: blue;
+  height: 7vh;
+  width: 55%;
+  border-radius: 1em;
+  color: black;
+}
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .section-two {
+    height: 30vh;
+    margin: 0%;
   }
 }
