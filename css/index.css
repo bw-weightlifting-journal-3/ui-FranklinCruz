@@ -569,7 +569,11 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border: dotted 1px red;
-  width: 65%;
+  width: 100%;
   height: 55vh;
+  background-color: #f2f1ed;
+}
+.main-section-card .warpper-card img {
+  height: 30vh;
+  width: 55vw;
 }
